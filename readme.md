@@ -1,3 +1,6 @@
+## Screenshot
+![screenshot](https://github.com/dishuostec/superscript-chs-demo/raw/master/public/img/screenshot.png)
+
 ## Usage
 
 ```
