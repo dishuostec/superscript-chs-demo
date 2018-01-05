@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#app {
+	width: 960px;
+	height: 100%;
+	background-color: #aaa;
+	position: relative;
+}
+
+#chat {
+	width: 50%;
+	height: 100%;
+	overflow: scroll;
+	background-color: #eee;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: flex-start;
+}
+
+li {
+	max-width: 380px;
+	list-style-type: none;
+	overflow-wrap: break-word;
+	margin: 12px 0;
+	padding: 10px;
+	border-radius: 0.7em;
+	background-color: #fff;
+	order: 0;
+	flex: 0 1 auto;
+}
+
+.send {
+	align-self: flex-end;
+	margin-right: 1em;
+	background-color: #8f8;
+	border-bottom-right-radius: 0;
+}
+
+.receive {
+	align-self: flex-start;
+	margin-left: 1em;
+	border-bottom-left-radius: 0;
+}
+
+#control {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+}
+
+#input {
+	width: 400px;
+	height: 140px;
+	overflow-y: scroll;
+	padding: 8px;
+}
+
+button{
+	width: 4em;
+	height: 2em;
+}

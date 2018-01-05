@@ -1,0 +1,30 @@
+{
+  "name": "superscript-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --copy-files",
+    "parse": "parse --force",
+    "start": "npm run parse && npm run build && node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dishuostec",
+  "license": "MIT",
+  "dependencies": {
+    "@dishuostec/superscript": "^1.2.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "ss-chs": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
